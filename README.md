@@ -42,71 +42,73 @@ git clone https://github.com/swapnilbilgoji/Slooze_Challenge.git
 # 2. Navigate into the project directory
 cd Slooze_Challenge
 ```
+To execute a Jupyter Notebook file (.ipynb), follow these step-by-step instructions:
 
-## Execution Steps
+### 1. Install Jupyter Notebook (if not already installed)
 
-Below are the general steps to set up and execute the project. Please adjust according to the actual project structure and language if different.
-
-### 1. Install Dependencies
-
-If a requirements file is provided (e.g., `requirements.txt` for Python):
+You need Python installed. Then, install Jupyter using pip:
 
 ```bash
-pip install -r requirements.txt
+pip install notebook
 ```
 
-Or, if using another language (e.g., Node.js):
+Or, if you use Anaconda (recommended for data science):
 
 ```bash
-npm install
+conda install notebook
 ```
 
-### 2. Run the Application
+---
 
-For Python projects:
+### 2. Open Jupyter Notebook
+
+Navigate to the directory containing your .ipynb file using the terminal/command prompt:
 
 ```bash
-python main.py
+cd /path/to/your/notebook
 ```
 
-For Node.js projects:
+Then, launch Jupyter Notebook:
 
 ```bash
-node index.js
+jupyter notebook
 ```
 
-*(Update the above according to your main entry file and language.)*
+This will open Jupyter Notebook in your default web browser.
 
-### 3. Running Tests
+---
 
-If there are test scripts, run:
+### 3. Open Your .ipynb File
 
-```bash
-pytest
-```
-or
-```bash
-npm test
-```
+- In the browser window that opens, navigate to your .ipynb file and click on it to open.
 
-### 4. Additional Notes
+---
 
-- Refer to task/challenge instructions in the respective files.
-- For any issues, please open an issue in this repository.
+### 4. Execute the Notebook
 
-## Contributing
+- You can run individual cells by selecting them and pressing Shift + Enter.
+- To run all cells in order:  
+  Go to the menu: **Cell** > **Run All**
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+---
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### 5. Save Your Work
 
-## License
+- Save your notebook as you go by clicking the save icon or pressing Ctrl + S.
 
-Distributed under the MIT License. See `LICENSE` for more information.
+---
+
+### 6. (Optional) Export your Notebook
+
+- You can export your notebook as a PDF or HTML via:  
+  **File** > **Download as** > choose your format.
+
+---
+
+#### Troubleshooting
+
+- If you encounter kernel errors, ensure your Python environment has all required packages installed (you can install packages using pip or conda).
+- If you get "command not found" for jupyter, ensure your Python/Scripts folder is in your PATH.
 
 ---
 
